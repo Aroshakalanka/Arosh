@@ -23,8 +23,12 @@
   /* background: white; */
 }
 
+.background {
+  background: black;
+}
+
 .overlay {
-  /* background: rgba(0, 0, 0, 0.7); */
+  background: rgba(0, 0, 0, 0.7);
   z-index: -98;
 }
 
@@ -48,6 +52,7 @@
   margin-bottom: 30px;
   margin-top: -25px;
   animation: MyAnimation 1s ease-in infinite alternate;
+  background: white;
 }
 
 @keyframes MyAnimation {
