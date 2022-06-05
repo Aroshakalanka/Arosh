@@ -1,13 +1,16 @@
 import React from "react";
-import VerifyIcon from "../../assets/Icons/VerifyIcon.svg";
 import css from "./HomeScreen.module.css";
+
+import VerifyIcon from "../../assets/Icons/VerifyIcon.svg";
+import bg from "../../assets/images/bg.jpg";
 
 function HomeScreen() {
   return (
     <div className={css.container}>
       <div className={css.overlay} />
       <img
-        src="https://firebasestorage.googleapis.com/v0/b/arosh-aa9fe.appspot.com/o/Wallpaper%201.jpg?alt=media&token=91180df0-9d9c-4f16-8f66-a5f170562ee9"
+        // src="https://firebasestorage.googleapis.com/v0/b/arosh-aa9fe.appspot.com/o/Wallpaper%201.jpg?alt=media&token=91180df0-9d9c-4f16-8f66-a5f170562ee9"
+        src={bg}
         alt="Background"
         className={css.background}
       />
