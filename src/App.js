@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route, Navigate, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import "./App.css";
 
 import HomeScreen from "./screens/home/HomeScreen";
