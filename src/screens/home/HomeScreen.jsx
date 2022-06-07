@@ -30,7 +30,11 @@ function HomeScreen() {
 
         <div className={css.bio}>Coding | Sleeping | 😉💻❤</div>
 
-        <div className={css.ChatBtn}>Chat With Me!</div>
+        {/* <div > */}
+        <a href="mailto:hello@arosh.tech" className={css.ChatBtn}>
+          Contact Me!
+        </a>
+        {/* </div> */}
       </div>
     </div>
   );
